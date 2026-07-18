@@ -6,7 +6,7 @@
 <title>The Menu — Adelyn Bakery Boutique | Macarons, Cakes &amp; Boba, Round Rock</title>
 <meta name="description" content="The Adelyn Bakery Boutique menu — French macarons, crème brûlée, cupcakes, cake pops, custom cakes and a boba bar with taro, butterfly and Thai milk teas. Order online or call (512) 502-5023.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@400;500;600;700;800&family=Pinyon+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%20100%20100%27%3E%3Ccircle%20cx%3D%2750%27%20cy%3D%2750%27%20r%3D%2746%27%20fill%3D%27%233E7E90%27/%3E%3Ctext%20x%3D%2750%27%20y%3D%2768%27%20font-size%3D%2754%27%20text-anchor%3D%27middle%27%20fill%3D%27%23FBF6EE%27%20font-family%3D%27Georgia%27%20font-style%3D%27italic%27%3EA%3C/text%3E%3C/svg%3E">
 </head>
@@ -15,7 +15,7 @@
 <header class="nav">
   <a class="brand" href="index.html" aria-label="Adelyn Bakery Boutique — home">
     <svg viewBox="0 0 52 52" fill="none" aria-hidden="true">
-      <circle cx="26" cy="26" r="24.5" stroke="#3E7E90" stroke-width="1.6"/>
+      <circle cx="26" cy="26" r="24.5" stroke="#3E7E90" stroke-width="1.8"/>
       <circle cx="26" cy="26" r="21" stroke="#3E7E90" stroke-width="1" stroke-dasharray="1.5 3.2"/>
       <path d="M26 10.5 L26 14" stroke="#3E7E90" stroke-width="1.5" stroke-linecap="round"/>
       <path d="M26 14 C26 24 22.5 31 17.5 39.5 M26 14 C26 24 29.5 31 34.5 39.5" stroke="#3E7E90" stroke-width="1.6" stroke-linecap="round"/>
@@ -35,112 +35,87 @@
   </nav>
   <div class="nav-cta">
     <a class="tel" href="tel:5125025023">(512) 502-5023</a>
-    <a class="btn btn-blue btn-sm" href="https://www.doordash.com/store/adelyn-bakery-boutique-round-rock-750996" target="_blank" rel="noopener">Order Online</a>
+    <a class="btn btn-fill btn-sm magnet" href="https://www.doordash.com/store/adelyn-bakery-boutique-round-rock-750996" target="_blank" rel="noopener">Order Online</a>
   </div>
 </header>
 
-<section class="page-hero">
+<section class="page-hero" data-bg="#FFF9F2">
+  <span class="script">la carte, s'il vous plaît —</span>
+  <h1 class="giant kin">The <span class="it">menu</span></h1>
+  <p>Everything is baked and blended to order, from scratch, in-house. Flavors rotate with the season — for today's full board and prices, order online or just ask at the counter.</p>
+</section>
+
+<section class="section" style="padding-top:20px" data-bg="#F7D9DC">
   <div class="wrap">
-    <span class="script">la carte</span>
-    <h1>The <span class="it">menu</span></h1>
-    <p>Everything is baked and blended to order, from scratch, in-house. Flavors rotate with the season — for today's full selection and prices, order online or stop by the case.</p>
+
+    <div class="board rose" id="macarons">
+      <div class="board-head"><span class="board-no">No. 01</span><h2>French Macarons</h2></div>
+      <p class="board-sub">crisp almond shells, silky ganache — single or by the box</p>
+      <div class="menu-flavors">
+        <span class="tag">Strawberry</span>
+        <span class="tag">Passionfruit</span>
+        <span class="tag">Pistachio</span>
+        <span class="tag">Lavender</span>
+        <span class="tag">Cookies &amp; Cream</span>
+        <span class="tag">Lemon</span>
+        <span class="tag">Rose</span>
+        <span class="tag">Chocolate</span>
+        <span class="tag">Matcha</span>
+        <span class="tag" style="background:var(--ink);color:var(--canvas)">…and today's rotation</span>
+      </div>
+    </div>
+
+    <div class="board butter" id="patisserie">
+      <div class="board-head"><span class="board-no">No. 02</span><h2>Patisserie</h2></div>
+      <p class="board-sub">from Chef Annie's case</p>
+      <div class="menu-items">
+        <div class="menu-item"><span class="nm">Crème Brûlée</span><span class="lead"></span><span class="ds">crackling caramel top</span></div>
+        <div class="menu-item"><span class="nm">Cupcakes</span><span class="lead"></span><span class="ds">scratch-made frosting</span></div>
+        <div class="menu-item"><span class="nm">Cake Pops</span><span class="lead"></span><span class="ds">hand-dipped &amp; decorated</span></div>
+        <div class="menu-item"><span class="nm">Cake Slices</span><span class="lead"></span><span class="ds">from the day's cakes</span></div>
+        <div class="menu-item"><span class="nm">Seasonal Pastries</span><span class="lead"></span><span class="ds">rotating French-inspired treats</span></div>
+        <div class="menu-item"><span class="nm">Custom Cakes</span><span class="lead"></span><span class="ds"><a href="custom.html" style="font-weight:800;text-decoration:underline;text-underline-offset:3px">made to order →</a></span></div>
+      </div>
+    </div>
+
+    <div class="board taro" id="boba">
+      <div class="board-head"><span class="board-no">No. 03</span><h2>Boba &amp; Milk Tea</h2></div>
+      <p class="board-sub">shaken to order with chewy tapioca pearls</p>
+      <div class="menu-items">
+        <div class="menu-item"><span class="nm">Dreamy Sky Milk Tea</span><span class="lead"></span><span class="ds">the house showstopper</span></div>
+        <div class="menu-item"><span class="nm">Butterfly Milk Tea</span><span class="lead"></span><span class="ds">butterfly-pea blue</span></div>
+        <div class="menu-item"><span class="nm">Taro Coconut Milk Tea</span><span class="lead"></span><span class="ds">creamy &amp; nutty</span></div>
+        <div class="menu-item"><span class="nm">Black Milk Tea</span><span class="lead"></span><span class="ds">the classic, not too sweet</span></div>
+        <div class="menu-item"><span class="nm">Thai Tea</span><span class="lead"></span><span class="ds">bold &amp; creamy</span></div>
+        <div class="menu-item"><span class="nm">Cookies &amp; Cream</span><span class="lead"></span><span class="ds">a kids'-table legend</span></div>
+        <div class="menu-item"><span class="nm">Winter Melon</span><span class="lead"></span><span class="ds">light &amp; refreshing</span></div>
+        <div class="menu-item"><span class="nm">Guava · Passionfruit</span><span class="lead"></span><span class="ds">bright fruit teas</span></div>
+      </div>
+    </div>
+
+    <div class="board pistachio" id="smoothies">
+      <div class="board-head"><span class="board-no">No. 04</span><h2>Smoothies &amp; Slushies</h2></div>
+      <p class="board-sub">real fruit, blended frosty</p>
+      <div class="menu-items">
+        <div class="menu-item"><span class="nm">Taro Coconut Smoothie</span><span class="lead"></span><span class="ds">rich, creamy, violet</span></div>
+        <div class="menu-item"><span class="nm">Strawberry Smoothie</span><span class="lead"></span><span class="ds">a summer standby</span></div>
+        <div class="menu-item"><span class="nm">Honeydew Smoothie</span><span class="lead"></span><span class="ds">melon-sweet &amp; mellow</span></div>
+        <div class="menu-item"><span class="nm">Mango Snow Ice</span><span class="lead"></span><span class="ds">icy, bright, shareable</span></div>
+        <div class="menu-item"><span class="nm">Green Apple Slush</span><span class="lead"></span><span class="ds">tart &amp; fun</span></div>
+        <div class="menu-item"><span class="nm">Seasonal Blends</span><span class="lead"></span><span class="ds">ask what's in today</span></div>
+      </div>
+    </div>
+
+    <p class="menu-note">Flavors rotate and prices vary by size — see the online ordering menu for today's full board, or just ask. We love to recommend.</p>
   </div>
 </section>
 
-<section class="section-tight" style="padding-top:10px">
-  <div class="wrap">
-    <div class="menu-card">
-
-      <div class="menu-sec" id="macarons">
-        <div class="menu-sec-head">
-          <div class="ornament"><span>🌸</span></div>
-          <h2>French Macarons</h2>
-          <small>crisp almond shells, silky ganache — single or by the box</small>
-        </div>
-        <div class="menu-flavors">
-          <span class="tag tag-rose">Strawberry</span>
-          <span class="tag tag-butter">Passionfruit</span>
-          <span class="tag tag-pist">Pistachio</span>
-          <span class="tag tag-lav">Lavender</span>
-          <span class="tag tag-blue">Cookies &amp; Cream</span>
-          <span class="tag tag-butter">Lemon</span>
-          <span class="tag tag-rose">Rose</span>
-          <span class="tag tag-blue">Chocolate</span>
-          <span class="tag tag-pist">Matcha</span>
-          <span class="tag">…and today's rotation</span>
-        </div>
-      </div>
-
-      <div class="menu-sec" id="patisserie">
-        <div class="menu-sec-head">
-          <div class="ornament"><span>🍰</span></div>
-          <h2>Patisserie</h2>
-          <small>from Chef Annie's case</small>
-        </div>
-        <div class="menu-items">
-          <div class="menu-item"><span class="nm">Crème Brûlée</span><span class="lead"></span><span class="ds">crackling caramel top</span></div>
-          <div class="menu-item"><span class="nm">Cupcakes</span><span class="lead"></span><span class="ds">scratch-made frosting</span></div>
-          <div class="menu-item"><span class="nm">Cake Pops</span><span class="lead"></span><span class="ds">hand-dipped &amp; decorated</span></div>
-          <div class="menu-item"><span class="nm">Cake Slices</span><span class="lead"></span><span class="ds">from the day's cakes</span></div>
-          <div class="menu-item"><span class="nm">Seasonal Pastries</span><span class="lead"></span><span class="ds">rotating French-inspired treats</span></div>
-          <div class="menu-item"><span class="nm">Custom Cakes</span><span class="lead"></span><span class="ds"><a href="custom.html" style="color:var(--blue);font-weight:600">made to order →</a></span></div>
-        </div>
-      </div>
-
-      <div class="menu-sec" id="boba">
-        <div class="menu-sec-head">
-          <div class="ornament"><span>🧋</span></div>
-          <h2>Boba &amp; Milk Tea</h2>
-          <small>shaken to order with chewy tapioca pearls</small>
-        </div>
-        <div class="menu-items">
-          <div class="menu-item"><span class="nm">Dreamy Sky Milk Tea</span><span class="lead"></span><span class="ds">the house showstopper</span></div>
-          <div class="menu-item"><span class="nm">Butterfly Milk Tea</span><span class="lead"></span><span class="ds">butterfly-pea blue</span></div>
-          <div class="menu-item"><span class="nm">Taro Coconut Milk Tea</span><span class="lead"></span><span class="ds">creamy &amp; nutty</span></div>
-          <div class="menu-item"><span class="nm">Black Milk Tea</span><span class="lead"></span><span class="ds">the classic, not too sweet</span></div>
-          <div class="menu-item"><span class="nm">Thai Tea</span><span class="lead"></span><span class="ds">bold &amp; creamy</span></div>
-          <div class="menu-item"><span class="nm">Cookies &amp; Cream</span><span class="lead"></span><span class="ds">a kids'-table legend</span></div>
-          <div class="menu-item"><span class="nm">Winter Melon</span><span class="lead"></span><span class="ds">light &amp; refreshing</span></div>
-          <div class="menu-item"><span class="nm">Guava · Passionfruit</span><span class="lead"></span><span class="ds">bright fruit teas</span></div>
-        </div>
-      </div>
-
-      <div class="menu-sec" id="smoothies">
-        <div class="menu-sec-head">
-          <div class="ornament"><span>🍓</span></div>
-          <h2>Smoothies &amp; Slushies</h2>
-          <small>real fruit, blended frosty</small>
-        </div>
-        <div class="menu-items">
-          <div class="menu-item"><span class="nm">Taro Coconut Smoothie</span><span class="lead"></span><span class="ds">rich, creamy, violet</span></div>
-          <div class="menu-item"><span class="nm">Strawberry Smoothie</span><span class="lead"></span><span class="ds">a summer standby</span></div>
-          <div class="menu-item"><span class="nm">Honeydew Smoothie</span><span class="lead"></span><span class="ds">melon-sweet &amp; mellow</span></div>
-          <div class="menu-item"><span class="nm">Mango Snow Ice</span><span class="lead"></span><span class="ds">icy, bright, shareable</span></div>
-          <div class="menu-item"><span class="nm">Green Apple Slush</span><span class="lead"></span><span class="ds">tart &amp; fun</span></div>
-          <div class="menu-item"><span class="nm">Seasonal Blends</span><span class="lead"></span><span class="ds">ask what's in today</span></div>
-        </div>
-      </div>
-
-      <p class="menu-note">Flavors rotate and prices vary by size — see the online ordering menu for today's full board, or just ask at the counter. We love to recommend.</p>
-    </div>
-
-    <div class="case-cta">
-      <a class="btn btn-blue btn-lg" href="https://www.doordash.com/store/adelyn-bakery-boutique-round-rock-750996" target="_blank" rel="noopener">Order today's menu <span class="arr">→</span></a>
-      <a class="btn btn-ghost btn-lg" href="tel:5125025023">Call to order</a>
-    </div>
-  </div>
-</section>
-
-<section class="section cta-band">
-  <div class="wrap">
-    <span class="script">et voilà</span>
-    <h2>Can't decide? Start with a macaron box.</h2>
-    <p>Six flavors, one little white box with the blue Adelyn seal — the easiest gift in Round Rock.</p>
-    <div class="cta-row" style="justify-content:center">
-      <a class="btn btn-ink btn-lg" href="https://www.doordash.com/store/adelyn-bakery-boutique-round-rock-750996" target="_blank" rel="noopener">Order online <span class="arr">→</span></a>
-      <a class="btn btn-ghost btn-lg" href="contact.html">Visit the boutique</a>
-    </div>
-  </div>
+<section class="mega-wrap" data-bg="#F8ECCB">
+  <span class="mega-script">et voilà —</span>
+  <a class="mega" href="https://www.doordash.com/store/adelyn-bakery-boutique-round-rock-750996" target="_blank" rel="noopener">
+    Order <em>today's</em> menu
+  </a>
+  <p class="mega-sub">Delivery via DoorDash · or <a href="tel:5125025023">call (512) 502-5023</a> to have it waiting</p>
 </section>
 
 <footer class="footer">
@@ -155,5 +130,6 @@
 </footer>
 
 <script src="assets/site.js" defer></script>
+<script src="assets/magic.js" defer></script>
 </body>
 </html>
